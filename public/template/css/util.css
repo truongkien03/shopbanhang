@@ -20,9 +20,6 @@ html {
     box-sizing: border-box;
 }
 
-
-/*---------------------------------------------*/
-
 a:focus {
     outline: none;
 }
@@ -78,10 +75,6 @@ button:focus {
 iframe {
     border: none;
 }
-
-
-/*//////////////////////////////////////////////////////////////////
-[ FONT SIZE ]*/
 
 .fs-1 {
     font-size: 1px;
