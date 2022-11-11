@@ -24,7 +24,7 @@ class MainController extends Controller
     public function index()
     {
         return view('home', [
-            'title' => 'Shop Nước Hoa ABC',
+            'title' => 'Nhà hàng đồ chay ',
             'sliders' => $this->slider->show(),
             'menus' => $this->menu->show(),
             'products' => $this->product->get()
@@ -43,4 +43,17 @@ class MainController extends Controller
 
         return response()->json(['html' => '' ]);
     }
+    public function show()
+    {
+        return view('home', [
+            'title' => 'Nhà hàng đồ chay ',
+        ]);
+    }
+    public function news()
+    {
+        return view('news', [
+            'title' => 'Nhà hàng đồ chaysadas ',
+        ]);
+    }
+    
 }

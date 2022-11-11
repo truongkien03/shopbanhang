@@ -1,8 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-body, .main-menu > li > a, .ltext-102 {
-    font-family: 'Roboto', sans-serif ;
+body,
+.main-menu>li>a,
+.ltext-102 {
+    font-family: "Montserrat", sans-serif;
 }
-.hidden  {
+
+.hidden {
     display: none !important;
+}
+
+.header-button a {
+    color: #009f5c;
+}
+
+.header-button a:hover {
+    background-color: #009f5c;
+    border: 1px solid currentColor;
+    line-height: 2em;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.nav-top {
+    width: 100%;
+    height: 30px;
+    font-family: 'Nunito', sans-serif;
+    background-color: #009f5c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 200;
+}
+
+.nav-top-title {
+    color: #fff;
+    font-weight: 500;
+    margin-left: 2rem;
+}
+
+.header-icon {
+    margin-right: 2rem;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.li-left span {
+    font-weight: 500;
+    color: #fff;
+}
+
+.li-between {
+    padding: 5px;
+}
+
+.li-right a {
+    text-decoration: none;
+}
+
+.li-right a i {
+    padding-left: 5px;
+    color: #fff;
 }

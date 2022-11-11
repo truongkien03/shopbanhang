@@ -57,13 +57,37 @@ Route::middleware(['auth'])->group(function () {
 });
 
 Route::get('/', [App\Http\Controllers\MainController::class, 'index']);
+
+Route::get('tin_tuc', function () {
+    return view('tin_tuc', [
+        'title' => 'Tin tức nhà hàng ',
+    ]);
+});
+Route::get('gioi_thieu', function () {
+    return view('gioi_thieu', [
+        'title' => 'Giới thiệu nhà hàng ',
+    ]);
+});
+Route::get('mam_chay', function () {
+    return view('mam_chay', [
+        'title' => 'Mâm cỗ chay ',
+    ]);
+});
+Route::get('lien_he', function () {
+    return view('lien_he', [
+        'title' => 'Liên hệ nhà hàng',
+    ]);
+});
 Route::post('/services/load-product', [App\Http\Controllers\MainController::class, 'loadProduct']);
 
 Route::get('danh-muc/{id}-{slug}.html', [App\Http\Controllers\MenuController::class, 'index']);
 Route::get('san-pham/{id}-{slug}.html', [App\Http\Controllers\ProductController::class, 'index']);
+
 
 Route::post('add-cart', [App\Http\Controllers\CartController::class, 'index']);
 Route::get('carts', [App\Http\Controllers\CartController::class, 'show']);
 Route::post('update-cart', [App\Http\Controllers\CartController::class, 'update']);
 Route::get('carts/delete/{id}', [App\Http\Controllers\CartController::class, 'remove']);
 Route::post('carts', [App\Http\Controllers\CartController::class, 'addCart']);
+
+///
