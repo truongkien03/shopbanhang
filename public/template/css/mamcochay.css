@@ -1,0 +1,49 @@
+#Mamcochay {
+    font-family: 'Comfortaa', cursive;
+}
+
+.Img-first img {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.Mamcochay-body {
+    margin: 40px 0px;
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: 500;
+    color: rgb(34, 31, 31);
+}
+
+.Mamcochay-body a {
+    background-color: #009f5c;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 99px;
+}
+
+.Mamcochay-body a:hover {
+    background-color: #01814c;
+}
+
+.Mamcochay-body a span {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.Mamcochay-end {
+    margin: 50px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Mamcochay-end div img {
+    width: 570px;
+    height: 570px;
+}
+
+.Mamcochay-end div h4 {
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+}

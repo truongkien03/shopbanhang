@@ -57,12 +57,10 @@ Route::middleware(['auth'])->group(function () {
 });
 
 Route::get('/', [App\Http\Controllers\MainController::class, 'index']);
+Route::get('tin_tuc', [App\Http\Controllers\MainController::class, 'tin_tuc']);
 
-Route::get('tin_tuc', function () {
-    return view('tin_tuc', [
-        'title' => 'Tin tức nhà hàng ',
-    ]);
-});
+
+
 Route::get('gioi_thieu', function () {
     return view('gioi_thieu', [
         'title' => 'Giới thiệu nhà hàng ',

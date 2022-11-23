@@ -49,10 +49,11 @@ class MainController extends Controller
             'title' => 'Nhà hàng đồ chay ',
         ]);
     }
-    public function news()
+    public function tin_tuc()
     {
-        return view('news', [
-            'title' => 'Nhà hàng đồ chaysadas ',
+        return view('tin_tuc', [
+            'title' => 'Nhà hàng đồ chay ',
+            'products' => $this->product->get(),
         ]);
     }
     

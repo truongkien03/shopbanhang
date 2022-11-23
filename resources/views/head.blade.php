@@ -19,5 +19,12 @@
 <link rel="stylesheet" type="text/css" href="/template/css/style.css">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500&family=Roboto+Mono:ital,wght@0,200;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/template/css/tintuc.css">
+<link rel="stylesheet" type="text/css" href="/template/css/mamcochay.css">
+<link rel="stylesheet" type="text/css" href="/template/css/gioithieu.css">
+
+
 <meta name="csrf-token" content="{{ csrf_token() }}">
 

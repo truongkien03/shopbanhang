@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#News {
+    width: 100%;
+    margin-top: 150px;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+#New-right {
+    width: 70%;
+    border-right: solid 1px rgba(0, 0, 0, 0.1);
+}
+
+.New-right-body {
+    width: 730px;
+    height: 140px;
+    border: solid 0.5px rgb(240, 232, 232);
+    box-shadow: 1px 1px 1px 1px rgb(240, 232, 232);
+    margin-left: 130px;
+    transition: all .2s ease-in-out;
+    transition-duration: .3s;
+    margin-bottom: 30px;
+}
+
+.New-right-body:hover {
+    box-shadow: 0px 0px 10px 0px #323232;
+    transform: scale(1.025);
+}
+
+.New-right-center {
+    font-family: 'Comfortaa', cursive;
+    padding: 20px 15px 20px;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.New-right-center h2 {
+    font-size: 18px;
+}
+
+.New-right-center span {
+    font-size: 14px;
+}
+
+.is-divider {
+    margin-top: .5em;
+    margin-bottom: .5em;
+    height: 2px;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 30px;
+}
+
+.New-Right-bottom {
+    width: 730px;
+    height: 170px;
+    display: flex;
+    border: solid 0.5px rgb(240, 232, 232);
+    box-shadow: 1px 1px 1px 1px rgb(240, 232, 232);
+    margin-left: 130px;
+    transition: all .2s ease-in-out;
+    transition-duration: .3s;
+    margin-top: 30px;
+}
+
+.New-Right-bottom:hover {
+    box-shadow: 0px 0px 10px 0px #323232;
+    transform: scale(1.025);
+}
+
+.Bottom-text h2 {
+    font-size: 18px;
+}
+
+.Bottom-text p {
+    font-size: 14px;
+}
+
+.Img-editor img {
+    width: 309px;
+    height: 173px;
+}
+
+.Bottom-text {
+    font-family: 'Comfortaa', cursive;
+    padding: 40px 15px 30px;
+    line-height: 25px;
+    font-size: 17px;
+}
+
+
+/* Body Left */
+
+#New-left {
+    margin-left: 30px;
+}
+
+.Left-Text {
+    font-family: 'Comfortaa', cursive;
+}
+
+.Left-Img-Logo img {
+    width: 240px;
+    height: 73px;
+    margin-bottom: 30px;
+}
+
+.span-text {
+    padding: 20px 0px;
+    font-size: 18px;
+}
+
+.is-divider2 {
+    margin-top: .5em;
+    margin-bottom: .5em;
+    height: 3px;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 35px;
+}
+
+.Left-sanpham {
+    display: flex;
+    margin-top: 30px;
+}
+
+.Left-img img {
+    width: 65px;
+    height: 65px;
+}
+
+.Left-text-sanpham {
+    padding: 5px 15px;
+    line-height: 25px;
+    font-size: 15px;
+}
