@@ -56,5 +56,26 @@ class MainController extends Controller
             'products' => $this->product->get(),
         ]);
     }
+    public function mam_chay()
+    {
+        return view('mam_chay', [
+            'title' => 'Nhà hàng đồ chay ',
+            'products' => $this->product->get(),
+        ]);
+    }
+    public function lien_he()
+    {
+        return view('lien_he', [
+            'title' => 'Nhà hàng đồ chay ',
+            'products' => $this->product->get(),
+        ]);
+    }
+    public function gioi_thieu()
+    {
+        return view('gioi_thieu', [
+            'title' => 'Nhà hàng đồ chay ',
+            'products' => $this->product->get(),
+        ]);
+    }
     
 }

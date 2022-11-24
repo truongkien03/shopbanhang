@@ -61,14 +61,14 @@
 
                     <div class="flex-w flex-sb-m bor15 p-t-18 p-b-15 p-lr-40 p-lr-15-sm">
                         <div class="flex-w flex-m m-r-20 m-tb-5">
-                            <input class="stext-104 cl2 plh4 size-117 bor13 p-lr-20 m-r-10 m-tb-5" type="text" name="coupon" placeholder="Coupon Code">
+                            <input class="stext-104 cl8 plh4 size-117 bor13 p-lr-20 m-r-10 m-tb-5" type="text" name="coupon" placeholder="Coupon Code">
 
-                            <div class="flex-c-m stext-101 cl2 size-118 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-5">
+                            <div class="flex-c-m stext-101 cl8 size-118 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-5">
                                 Apply coupon
                             </div>
                         </div>
 
-                        <input type="submit" value="Update Cart" formaction="/update-cart" class="flex-c-m stext-101 cl2 size-119 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-10">
+                        <input type="submit" value="Update Cart" formaction="/update-cart" class="flex-c-m stext-101 cl8 size-119 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-10">
                         @csrf
                     </div>
                 </div>
@@ -76,19 +76,19 @@
 
             <div class="col-sm-10 col-lg-7 col-xl-5 m-lr-auto m-b-50">
                 <div class="bor10 p-lr-40 p-t-30 p-b-40 m-l-63 m-r-40 m-lr-0-xl p-lr-15-sm">
-                    <h4 class="mtext-109 cl2 p-b-30">
+                    <h4 class="mtext-109 cl8 p-b-30">
                         Cart Totals
                     </h4>
 
                     <div class="flex-w flex-t p-t-27 p-b-33">
                         <div class="size-208">
-                            <span class="mtext-101 cl2">
+                            <span class="mtext-101 cl8">
                                 Total:
                             </span>
                         </div>
 
                         <div class="size-209 p-t-1">
-                            <span class="mtext-110 cl2">
+                            <span class="mtext-110 cl8">
                                 {{ number_format($total, 0, '', '.') }}
                             </span>
                         </div>
@@ -99,10 +99,10 @@
                         <div class="size-100 p-r-18 p-r-0-sm w-full-ssm">
 
                             <div class="p-t-15">
-                                <span class="stext-112 cl8">
+                                <span  class="stext-112 cl8">
                                     Thông Tin Khách Hàng
                                 </span>
-
+                                <br>
                                 <div class="bor8 bg0 m-b-12">
                                     <input class="stext-111 cl8 plh3 size-111 p-lr-15" type="text" name="name" placeholder="Tên khách Hàng" required>
                                 </div>
@@ -137,7 +137,7 @@
 </form>
 @else
 <div class="text-center">
-    <h2>Giỏ hàng trống</h2>
+    <h1 style="text-align: center; height: 200px; margin-top: 100px;">Cảm ơn quý khách đã đặt hàng!</h1>
 </div>
 @endif
 @endsection

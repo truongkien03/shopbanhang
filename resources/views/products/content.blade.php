@@ -12,7 +12,7 @@
             <i class="fa fa-angle-right m-l-9 m-r-10" aria-hidden="true"></i>
         </a>
 
-        <span class="stext-109 cl4">
+        <span class="stext-109 cl8">
             {{ $title }}
         </span>
     </div>
@@ -60,7 +60,7 @@
                 <div class="p-r-50 p-t-5 p-lr-0-lg">
                     @include('admin.alert')
 
-                    <h4 class="mtext-105 cl2 js-name-detail p-b-14">
+                    <h4 class="mtext-105 cl8 js-name-detail p-b-14">
                         {{ $title }}
                     </h4>
 
@@ -92,7 +92,7 @@
 
 
                                     <button type="submit" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 ">
-                                        Add to cart
+                                        Thêm giỏ hàng
                                     </button>
                                     <input type="hidden" name="product_id" value="{{ $product->id }}">
                                     @endif

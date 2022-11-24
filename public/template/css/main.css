@@ -2157,7 +2157,7 @@ input.num-product::-webkit-inner-spin-button {
 }
 
 .cl2 {
-    color: #08590d;
+    color: #f9f9f9;
 }
 
 .cl3 {
@@ -2493,6 +2493,7 @@ input.num-product::-webkit-inner-spin-button {
 
 .bor1 {
     border-radius: 23px;
+    margin-top: 20px;
 }
 
 .bor2 {

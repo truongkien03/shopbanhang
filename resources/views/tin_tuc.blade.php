@@ -60,9 +60,9 @@
                     </div>
                 </div>
                 <div class="Bottom-text">
-                    <h2 style="font-weight: 600;">Nhà Hàng Chay Ans Trên Tạp Chí Đà Nẵng</h2>
+                    <h2 style="font-weight: 600;">Nhà Hàng Chay GiangKien Food Trên Tạp Chí Đà Nẵng</h2>
                     <div class="is-divider"></div>
-                    <p>Nhà hàng chay Ans – tấm gương khởi nghiệp tiêu biểu của thế hệ 9X [...]</p>
+                    <p>Nhà hàng chay GiangKien Food  – tấm gương khởi nghiệp tiêu biểu của thế hệ 9X [...]</p>
                 </div>
             </div>
             <div class="New-Right-bottom">
@@ -88,7 +88,7 @@
                     </div>
                 </div>
                 <div class="Bottom-text">
-                    <h2 style="font-weight: 600;">Nhà Hàng Chay Ans Trên Tạp Chí Đà Nẵng</h2>
+                    <h2 style="font-weight: 600;">Nhà Hàng Chay GiangKien Food  Trên Tạp Chí Đà Nẵng</h2>
                     <div class="is-divider"></div>
                     <p>Canh Chay với vị tươi mát của rau củ quả sẽ giúp cho các bạn [...]</p>
                 </div>
@@ -124,7 +124,7 @@
         </div>
         <div id="New-left">
             <div class="Left-Img-Logo">
-                <img src="https://nhahangchayans.com/wp-content/uploads/2020/04/logo-2020.png" alt="">
+                <img src="/template/images/logo.png" alt="">
             </div>
             <div class="Left-Text">
                 <div class="span-text"><span>MÓN ĂN ĐẶT TRƯNG</span></div>

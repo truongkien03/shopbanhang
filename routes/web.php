@@ -58,24 +58,14 @@ Route::middleware(['auth'])->group(function () {
 
 Route::get('/', [App\Http\Controllers\MainController::class, 'index']);
 Route::get('tin_tuc', [App\Http\Controllers\MainController::class, 'tin_tuc']);
+Route::get('mam_chay', [App\Http\Controllers\MainController::class, 'mam_chay']);
+Route::get('lien_he', [App\Http\Controllers\MainController::class, 'lien_he']);
+Route::get('gioi_thieu', [App\Http\Controllers\MainController::class, 'gioi_thieu']);
 
 
 
-Route::get('gioi_thieu', function () {
-    return view('gioi_thieu', [
-        'title' => 'Giới thiệu nhà hàng ',
-    ]);
-});
-Route::get('mam_chay', function () {
-    return view('mam_chay', [
-        'title' => 'Mâm cỗ chay ',
-    ]);
-});
-Route::get('lien_he', function () {
-    return view('lien_he', [
-        'title' => 'Liên hệ nhà hàng',
-    ]);
-});
+
+
 Route::post('/services/load-product', [App\Http\Controllers\MainController::class, 'loadProduct']);
 
 Route::get('danh-muc/{id}-{slug}.html', [App\Http\Controllers\MenuController::class, 'index']);
