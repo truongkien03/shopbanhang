@@ -38,7 +38,7 @@
 
 
 <!-- Banner -->
-<div class="sec-banner bg0 p-t-80 p-b-50">
+<div style="margin-left: 49px;" class="sec-banner bg0 p-t-80 p-b-50" >
     <h1 style="text-align: center; margin-bottom: 30px; font-size: 4rem; margin-left: -82px;;">MENU</h1>
     
     <div class="container">
@@ -87,12 +87,10 @@
                 <button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5 how-active1" data-filter="*">
                     <div class="col medium-7 small-12 large-7">
                         <div class="col-inner text-center">
-                            <h1><span style="font-size: 180%;">ANs</span></h1>
                             <h6 class="thin-font uppercase"><span style="font-size: 100%;">Nhà Hàng Chay Đà Nẵng </span></h6>
                             <p><img loading="lazy" class="wp-image-328 aligncenter" src="https://nhahangchayans.com/wp-content/uploads/2020/04/icon-cai-xanh-400x400.png" alt="" width="44" height="44"></p>
-                            <p class="p1" style="text-align: center; font-size: 20px;"><span style="font-size: 90%;">Ans Vegetarian Cuisines tự hào là lá cờ đi đầu trong sứ mệnh thúc đẩy phong trào khuyến khích giới trẻ ăn Chay tại Việt Nam. Ans<b>&nbsp;</b>cam kết mang lại những giá trị Ẩm thực Chay ngon nhất, lành nhất và đầy cảm hứng nhất đến tất cả mọi người !</span></p>
-                            <p><em>Nhà hàng chay Đà Nẵng –&nbsp;ANs Vegetarian Cuisines</em></p>
-
+                            <p class="p1" style="text-align: center; font-size: 20px;"><span style="font-size: 90%;">Giang Kien Vegetarian Cuisines tự hào là lá cờ đi đầu trong sứ mệnh thúc đẩy phong trào khuyến khích giới trẻ ăn Chay tại Việt Nam<b>&nbsp;</b>Cam kết mang lại những giá trị Ẩm thực Chay ngon nhất, lành nhất và đầy cảm hứng nhất đến tất cả mọi người !</span></p>
+                            <p><em>Nhà hàng chay Đà Nẵng –&nbsp;Giang Kien Vegetarian Cuisines</em></p>
                         </div>
                     </div>
                 </button>

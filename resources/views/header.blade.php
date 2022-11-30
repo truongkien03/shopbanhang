@@ -47,9 +47,6 @@
                         <li>
                             <a href="tin_tuc">Tin Tức</a>
                         </li>
-                        <li>
-                            <a href="lien_he">Liên Hệ</a>
-                        </li>
                     </ul>
                 </div>
 
@@ -74,21 +71,17 @@
     <div class="wrap-header-mobile">
         <!-- Logo moblie -->
         <div class="logo-mobile">
-            <a href="index.html"><img src="/template/images/icons/logo-01.png" alt="IMG-LOGO"></a>
+            <a href="/"><img src="/template/images//logo.png" alt="IMG-LOGO"></a>
         </div>
 
-        <!-- Icon header -->
+        
         <div class="wrap-icon-header flex-w flex-r-m m-r-15">
-            <div class="icon-header-item cl2 hov-cl1 trans-04 p-r-11 js-show-modal-search">
-                <i class="zmdi zmdi-search"></i>
-            </div>
-
-            <div class="icon-header-item cl2 hov-cl1 trans-04 p-r-11 p-l-10 icon-header-noti js-show-cart" data-notify="2">
+            <div class="icon-header-item cl8 hov-cl1 trans-04 p-r-11 p-l-10 icon-header-noti js-show-cart" data-notify="2">
                 <i class="zmdi zmdi-shopping-cart"></i>
             </div>
         </div>
 
-        <!-- Button show menu -->
+        
         <div class="btn-show-menu-mobile hamburger hamburger--squeeze">
             <span class="hamburger-box">
                 <span class="hamburger-inner"></span>

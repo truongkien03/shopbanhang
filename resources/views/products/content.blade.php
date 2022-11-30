@@ -25,12 +25,7 @@
                 <div class="p-l-25 p-r-30 p-lr-0-lg">
                     <div class="wrap-slick3 flex-sb flex-w">
                         <div class="wrap-slick3-dots">
-                            <ul class="slick3-dots" style="" role="tablist">
-                                <li class="slick-active" role="presentation">
-                                    <img src="{{ $product->thumb }}">
-                                    <div class="slick3-dot-overlay"></div>
-                                </li>
-                            </ul>
+                        
                         </div>
                         <div class="wrap-slick3-arrows flex-sb-m flex-w">
                             <button class="arrow-slick3 prev-slick3 slick-arrow" style=""><i class="fa fa-angle-left" aria-hidden="true"></i></button>
@@ -315,7 +310,7 @@
     <div class="container">
         <div class="p-b-45">
             <h3 class="ltext-106 cl5 txt-center">
-                Related Products
+            Sản phẩm liên quan
             </h3>
         </div>
 

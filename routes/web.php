@@ -17,7 +17,7 @@ Route::middleware(['auth'])->group(function () {
         Route::get('/', [MainController::class, 'index'])->name('admin');
         Route::get('main', [MainController::class, 'index']);
 
-        #Menu
+        
         Route::prefix('menus')->group(function () {
             Route::get('add', [MenuController::class, 'create']);
             Route::post('add', [MenuController::class, 'store']);
@@ -27,7 +27,7 @@ Route::middleware(['auth'])->group(function () {
             Route::DELETE('destroy', [MenuController::class, 'destroy']);
         });
 
-        #Product
+        
         Route::prefix('products')->group(function () {
             Route::get('add', [ProductController::class, 'create']);
             Route::post('add', [ProductController::class, 'store']);
@@ -37,7 +37,7 @@ Route::middleware(['auth'])->group(function () {
             Route::DELETE('destroy', [ProductController::class, 'destroy']);
         });
 
-        #Slider
+        
         Route::prefix('sliders')->group(function () {
             Route::get('add', [SliderController::class, 'create']);
             Route::post('add', [SliderController::class, 'store']);
@@ -47,10 +47,10 @@ Route::middleware(['auth'])->group(function () {
             Route::DELETE('destroy', [SliderController::class, 'destroy']);
         });
 
-        #Upload
+        
         Route::post('upload/services', [\App\Http\Controllers\Admin\UploadController::class, 'store']);
 
-        #Cart
+        
         Route::get('customers', [\App\Http\Controllers\Admin\CartController::class, 'index']);
         Route::get('customers/view/{customer}', [\App\Http\Controllers\Admin\CartController::class, 'show']);
     });
@@ -59,7 +59,6 @@ Route::middleware(['auth'])->group(function () {
 Route::get('/', [App\Http\Controllers\MainController::class, 'index']);
 Route::get('tin_tuc', [App\Http\Controllers\MainController::class, 'tin_tuc']);
 Route::get('mam_chay', [App\Http\Controllers\MainController::class, 'mam_chay']);
-Route::get('lien_he', [App\Http\Controllers\MainController::class, 'lien_he']);
 Route::get('gioi_thieu', [App\Http\Controllers\MainController::class, 'gioi_thieu']);
 
 
@@ -78,4 +77,3 @@ Route::post('update-cart', [App\Http\Controllers\CartController::class, 'update'
 Route::get('carts/delete/{id}', [App\Http\Controllers\CartController::class, 'remove']);
 Route::post('carts', [App\Http\Controllers\CartController::class, 'addCart']);
 
-///
